@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PicoCTF/Web/2 - Web/3 - Scavenger Hunt.md",
+                "file": "PicoCTF/Web/4 - Web/4 - Trickster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 - Scavenger Hunt"
+              "title": "4 - Trickster"
             }
           }
         ]
@@ -185,10 +185,26 @@
   },
   "active": "0d6c94f9a79a044d",
   "lastOpenFiles": [
-    "PicoCTF/Web/2 - Web/2 - Cookies.md",
-    "PicoCTF/Web/2 - Web/3 - Scavenger Hunt.md",
+    "PicoCTF/Web/4 - Web/3 - SOAP.md",
+    "PicoCTF/Web/4 - Web/2 - Most Cookies.md",
+    "PicoCTF/Web/4 - Web/1 - MatchTheRegex.md",
+    "PicoCTF/Web/4 - Web/4 - Trickster.md",
+    "PicoCTF/Tareas/Tarea 2/Unminify.md",
+    "PicoCTF/Tareas/Tarea 2/IntroToBurp.md",
+    "PicoCTF/Tareas/Tarea 2/Includes.md",
+    "PicoCTF/Tareas/Tarea 2/Inspect HTML.md",
+    "PicoCTF/Tareas/Tarea 2/Untitled 2.md",
     "PicoCTF/Plantilla.md",
+    "PicoCTF/Tareas/Tarea 2",
+    "PicoCTF/Tareas/Tarea 1/Untitled.md",
+    "PicoCTF/Web/3 - Web/3 - JaWT Scratchpad.md",
+    "PicoCTF/Web/3 - Web/1 - Irish-Name-Repo 1.md",
+    "PicoCTF/Web/3 - Web/2 - More SQLi.md",
+    "PicoCTF/Web/3 - Web",
     "PicoCTF/Web/2 - Web/1 - GET aHEAD.md",
+    "PicoCTF/Web/2 - Web/3 - Scavenger Hunt.md",
+    "PicoCTF/Web/4 - Web",
+    "PicoCTF/Web/2 - Web/2 - Cookies.md",
     "PicoCTF/Web/1 - Web/3 - logon.md",
     "PicoCTF/Web/2 - Web",
     "PicoCTF/Web/1 - Web/6 - Client-side-again.md",
@@ -202,27 +218,11 @@
     "PicoCTF/Tareas/Tarea 1/Permissions.md",
     "PicoCTF/Tareas/Tarea 1/Chrono.md",
     "PicoCTF/Tareas/Tarea 1/ASCII Numbers.md",
-    "PicoCTF/Tareas/Tarea 1/Commitment Issues.md",
-    "PicoCTF/Tareas/Tarea 1/Time Machine.md",
-    "PicoCTF/Tareas/Tarea 1/Collaborative Development.md",
-    "PicoCTF/Tareas/Tarea 1/Blame Game.md",
-    "PicoCTF/Tareas/Tarea 1/binhexa.md",
-    "PicoCTF/Tareas/Tarea 1/Binary Search.md",
-    "PicoCTF/Tareas/Tarea 1/Special.md",
-    "PicoCTF/GeneralSkills/2-General Skills/5 - Useless.md",
-    "PicoCTF/GeneralSkills/2-General Skills/3 - Wave a flag.md",
-    "PicoCTF/GeneralSkills/2-General Skills/7 - Magikarp Ground Mission.md",
-    "PicoCTF/GeneralSkills/2-General Skills/9 - Big Zip.md",
-    "PicoCTF/GeneralSkills/2-General Skills/10 - First Find.md",
-    "PicoCTF/GeneralSkills/2-General Skills/2 - Strings it.md",
     "PicoCTF/Tareas/Tarea 1",
     "PicoCTF/Tareas",
     "PicoCTF/GeneralSkills/3-General Skills",
-    "PicoCTF/GeneralSkills/2-General Skills",
     "Pasted image 20260209123755.png",
     "Pasted image 20260209123750.png",
-    "PicoCTF/GeneralSkills/1-General Skills",
-    "PicoCTF/01-General Skills",
     "Pasted image 20260130223109.png"
   ]
 }
