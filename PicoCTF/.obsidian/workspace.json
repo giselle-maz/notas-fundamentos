@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "b27282cedb2bd7f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb796a19fba387a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bd927bd2ca795d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88d9a2ac1ea4b120",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b03a527dd1ebf61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ccb2d87e28954c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c4b3d3814d35a323",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7188d9b4f35b4c80",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e02033385fbfd1bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a51c383b215532e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13ae6c16aaca0f19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "801922b27ecea419",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bc6e3b1434cdb20c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8acb83899ba34e87",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6d7ecfe86651b056",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8ccb2d87e28954c0",
+  "lastOpenFiles": [
+    "Examen1/Examen1Web/SSTI2.md",
+    "Examen1/Examen1Web/SSTI1.md",
+    "Examen1/Examen1Web/SQL Direct.md",
+    "Examen1/Examen1Web/Java Code Analysis!!.md",
+    "Examen1/Examen1Web/head-dump.md",
+    "Examen1/Examen1Web/findme.md",
+    "Examen1/Examen1Web/Cookie Monster Secret Recipe.md",
+    "Examen1/Examen1Web/Bookmarklet.md",
+    "Examen1/Examen1Web",
+    "Examen1/Examen1General Skills/Specialer.md",
+    "Examen1/Examen1General Skills/SansAplha.md",
+    "Examen1/Examen1General Skills/Rust fixme 3.md",
+    "Examen1/Examen1General Skills/Rust fixme 2.md",
+    "Examen1/Examen1General Skills/Rust fixme 1.md",
+    "Examen1/Examen1General Skills/Python Wrangling.md",
+    "Examen1/Examen1General Skills/flag_shop.md",
+    "Examen1/Examen1General Skills/HashingJobApp.md",
+    "Examen1/Examen1General Skills/FANTASY CTF.md",
+    "Examen1/Examen1General Skills/dont-you-love-banners.md",
+    "Examen1/Examen1General Skills",
+    "Examen1",
+    "Tareas/Tarea 3/cbimage.png",
+    "Tareas/Tarea 3/9 - St3g0 32d8a5e1c16b80968f86d71cd69d151b.md",
+    "Tareas/Tarea 3/8 - Redaction gone wrong 32d8a5e1c16b80bebe03fb33390b0fb1.md",
+    "Tareas/Tarea 3/7 - hideme 32d8a5e1c16b80d0856bd655ea7bd5c3.md",
+    "Tareas/Tarea 3/6 - Secret of the Polyglot 32d8a5e1c16b8029aca3f3976c78518f.md",
+    "Tareas/Tarea 3/5 - Scan Surprise 32d8a5e1c16b8033b581ff1f8c248c87.md",
+    "Tareas/Tarea 3/4 - RED 32d8a5e1c16b805fa727ce9adc5f11a0.md",
+    "Tareas/Tarea 3/3 - Ph4nt0m 1ntrud3r 32d8a5e1c16b80c59a15edf4d1e45b20.md",
+    "Tareas/Tarea 3/2 - information 32d8a5e1c16b80568512fa424e5cac75.md",
+    "Tareas/Tarea 3"
+  ]
+}
